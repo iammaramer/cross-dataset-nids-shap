@@ -72,6 +72,17 @@ download links for the exact processed data used in this study.
 pip install -r requirements.txt
 
 3. Download the datasets as described in [`data/README.md`](data/README.md).
+
+   > [!NOTE]
+   > Make sure the downloaded files keep their exact original names and go in the
+   > exact folders below — the scripts reference these specific relative paths:
+   >
+   > - `data/LycoS-IDS2017_FINAL.csv`
+   > - `data/LycoS-Unicas-IDS2018_CLEANED.csv`
+   > - `models/` — keep all 16 `.pkl` files here with their original filenames
+   >
+   > Placing files anywhere else, or renaming them, will cause a "file not found" error.
+
 4. Run `01_env_setup_and_preprocessing.ipynb` to reproduce preprocessing, or
    place the pre-processed CSVs directly if using the provided download link.
 5. Run the numbered scripts in order to reproduce training, tuning, and the
