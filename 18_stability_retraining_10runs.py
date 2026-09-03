@@ -15,10 +15,10 @@ from sklearn.metrics import matthews_corrcoef, accuracy_score, f1_score
 from xgboost import XGBClassifier
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-LYCOS17     = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18     = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
-PARAMS_PATH = r"D:\thesis_implementation\results\best_params.json"
-RESULTS_DIR = r"D:\thesis_implementation\results\10runs_results"   # <-- new folder
+LYCOS17     = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18     = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
+PARAMS_PATH = r"results\best_params.json"
+RESULTS_DIR = r"results\10runs_results"   # <-- new folder
 
 STABLE_FEATURES = [
     "bwd_pkt_len_std", "bwd_pkt_len_mean", "bwd_pkt_len_tot",

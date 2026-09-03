@@ -5,7 +5,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-RESULTS_DIR = r"D:\thesis_implementation\results"
+RESULTS_DIR = r"results"
 
 RF_XGB_RESULTS = os.path.join(RESULTS_DIR, "shap_filtered_results.csv")
 RF_XGB_COMP    = os.path.join(RESULTS_DIR, "shap_filtering_comparison.csv")

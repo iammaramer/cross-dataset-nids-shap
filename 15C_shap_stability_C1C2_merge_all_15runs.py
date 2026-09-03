@@ -12,9 +12,9 @@ from collections import Counter
 # =========================
 # Paths
 # =========================
-BATCH1_DIR  = r"D:\thesis_implementation\results\features_analysis"
-BATCH2_DIR  = r"D:\thesis_implementation\results\features_analysis\runs_6_15"
-OUTPUT_DIR  = r"D:\thesis_implementation\results\features_analysis\combined_15runs"
+BATCH1_DIR  = r"results\features_analysis"
+BATCH2_DIR  = r"results\features_analysis\runs_6_15"
+OUTPUT_DIR  = r"results\features_analysis\combined_15runs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =========================

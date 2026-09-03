@@ -6,7 +6,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 # Paths
-RESULTS_DIR = r"D:\thesis_implementation\results\shap"
+RESULTS_DIR = r"results\shap"
 RANKING_CSV = os.path.join(RESULTS_DIR, "shap_feature_ranking_XGB_C1C4.csv")
 
 print("Loading global XGBoost SHAP ranking table...")

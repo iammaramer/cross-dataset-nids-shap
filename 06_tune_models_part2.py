@@ -15,9 +15,9 @@ from sklearn.metrics import matthews_corrcoef, make_scorer
 from xgboost import XGBClassifier
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-LYCOS17     = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18     = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
-RESULTS_DIR = r"D:\thesis_implementation\results"
+LYCOS17     = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18     = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
+RESULTS_DIR = r"results"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 TUNE_SAMPLE_18 = 200_000   # LycoS18 sampled to 200k

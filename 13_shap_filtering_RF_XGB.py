@@ -18,11 +18,11 @@ from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-LYCOS17      = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18      = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
-SHAP_DIR     = r"D:\thesis_implementation\results\shap"
-RESULTS_DIR  = r"D:\thesis_implementation\results"
-PARAMS_FILE  = r"D:\thesis_implementation\results\best_params.json"
+LYCOS17      = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18      = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
+SHAP_DIR     = r"results\shap"
+RESULTS_DIR  = r"results"
+PARAMS_FILE  = r"results\best_params.json"
 RANKING_CSV  = os.path.join(SHAP_DIR, "shap_feature_ranking_RF_C1C4.csv")
 TUNED_CSV    = os.path.join(RESULTS_DIR, "tuned_results.csv")
 OUTPUT_CSV   = os.path.join(RESULTS_DIR, "shap_filtered_results.csv")

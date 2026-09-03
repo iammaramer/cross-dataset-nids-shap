@@ -2,7 +2,7 @@
 import os
 import pandas as pd
 
-BASE_DIR    = r"D:\thesis_implementation"
+BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
 RESULTS_DIR = os.path.join(BASE_DIR, "results", "shap")
 
 models = ["LDA", "Decision_Tree"]

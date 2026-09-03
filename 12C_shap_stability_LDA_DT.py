@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-RESULTS_DIR = r"D:\thesis_implementation\results\shap"
+RESULTS_DIR = r"results\shap"
 
 rank_cols  = ['Rank_C1', 'Rank_C2', 'Rank_C3', 'Rank_C4']
 exp_labels = ['C1', 'C2', 'C3', 'C4']

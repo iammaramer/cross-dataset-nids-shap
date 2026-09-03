@@ -17,11 +17,11 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score,
 from xgboost import XGBClassifier
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-LYCOS17      = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18      = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
-RESULTS_DIR  = r"D:\thesis_implementation\results"
-MODELS_DIR   = r"D:\thesis_implementation\results\models"
-PARAMS_PATH  = r"D:\thesis_implementation\results\best_params.json"
+LYCOS17      = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18      = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
+RESULTS_DIR  = r"results"
+MODELS_DIR   = r"models"
+PARAMS_PATH  = r"results\best_params.json"
 SAMPLE_18    = 500_000
 
 os.makedirs(RESULTS_DIR, exist_ok=True)

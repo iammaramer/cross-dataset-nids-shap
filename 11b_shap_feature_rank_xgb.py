@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Paths
-RESULTS_DIR = r"D:\thesis_implementation\results\shap"
+RESULTS_DIR = r"results\shap"
 OUTPUT_CSV  = os.path.join(RESULTS_DIR, "shap_feature_ranking_XGB_C1C4.csv")
 
 # Helper to load one SHAP importance file and rename columns

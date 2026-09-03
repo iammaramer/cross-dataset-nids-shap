@@ -12,10 +12,10 @@ import seaborn as sns
 # =========================
 # Paths
 # =========================
-LYCOS17 = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18 = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
+LYCOS17 = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18 = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
 
-RESULTS_DIR = r"D:\thesis_implementation\results"
+RESULTS_DIR = r"results"
 SHAP_DIR = os.path.join(RESULTS_DIR, "shap")
 RANKING_CSV = os.path.join(SHAP_DIR, "shap_feature_ranking_RF_C1C4.csv")
 

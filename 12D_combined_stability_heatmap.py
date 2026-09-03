@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from matplotlib.gridspec import GridSpec
 
-RESULTS_DIR = r"D:\thesis_implementation\results\shap"
+RESULTS_DIR = r"results\shap"
 
 spearman_files = {
     "LDA": "shap_spearman_LDA_C1C4.csv",

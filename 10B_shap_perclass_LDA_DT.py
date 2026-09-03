@@ -15,10 +15,10 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-LYCOS17     = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18     = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
-MODELS_DIR  = r"D:\thesis_implementation\results\models"
-RESULTS_DIR = r"D:\thesis_implementation\results\shap"
+LYCOS17     = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18     = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
+MODELS_DIR  = r"models"
+RESULTS_DIR = r"results\shap"
 SAMPLE_18   = 500_000
 SHAP_SAMPLE = 2_000
 

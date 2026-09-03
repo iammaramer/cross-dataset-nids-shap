@@ -16,10 +16,10 @@ from sklearn.metrics import (matthews_corrcoef, accuracy_score,
 # =========================
 # Paths
 # =========================
-LYCOS17    = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18    = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
-MODELS_DIR = r"D:\thesis_implementation\results\models"
-OUTPUT_DIR = r"D:\thesis_implementation\results\score_stability"
+LYCOS17    = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18    = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
+MODELS_DIR = r"models"
+OUTPUT_DIR = r"results\score_stability"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =========================

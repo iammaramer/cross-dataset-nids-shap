@@ -16,10 +16,10 @@ from sklearn.model_selection import train_test_split
 # =========================
 # Paths
 # =========================
-LYCOS17    = r"D:\thesis_implementation\LycoS-IDS2017_FINAL.csv"
-LYCOS18    = r"D:\thesis_implementation\LycoS-Unicas-IDS2018_CLEANED.csv"
-MODELS_DIR = r"D:\thesis_implementation\results\models"
-OUTPUT_DIR = r"D:\thesis_implementation\results\features_analysis\runs_6_15"
+LYCOS17    = r"data\LycoS-IDS2017_FINAL.csv"
+LYCOS18    = r"data\LycoS-Unicas-IDS2018_CLEANED.csv"
+MODELS_DIR = r"models"
+OUTPUT_DIR = r"results\features_analysis\runs_6_15"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =========================
